@@ -47,12 +47,16 @@ export default function Home() {
         <meta property="og:title" content="Quiz dos Games"/>
         <meta property="og:description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
         <meta property="og:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app/"+db.bg}></meta>
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://morkquiz-base.luisnascimentoss.vercel.app/"/>
         <meta property="twitter:title" content="Quiz dos Games"/>
         <meta property="twitter:description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
         <meta property="twitter:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app/"+db.bg}></meta>
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
       </Head>
       <QuizContainer>
         <QuizLogo />
