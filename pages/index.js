@@ -52,7 +52,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://morkquiz-base.luisnascimentoss.vercel.app/"/>
         <meta property="twitter:title" content="Quiz dos Games"/>
         <meta property="twitter:description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
-        <meta property="twitter:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app"+db.bg}></meta>
+        <meta property="twitter:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app/"+db.bg}></meta>
       </Head>
       <QuizContainer>
         <QuizLogo />
