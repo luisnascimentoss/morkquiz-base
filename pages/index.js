@@ -36,7 +36,7 @@ export default function Home() {
   const [name, setName] = React.useState('');
 
   return (
-    <QuizBackground BackgroundImage={db.bg}>
+    <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>AluraQuiz - Modelo Base</title>
         <meta name="title" content="Meta Tags — Preview, Edit and Generate"/>
