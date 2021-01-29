@@ -39,20 +39,20 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>AluraQuiz - Modelo Base</title>
-        <meta name="title" content="Meta Tags — Preview, Edit and Generate"/>
+        <meta name="title" content="AluraQuiz - Modelo Base"/>
         <meta name="description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://morkquiz-base.luisnascimentoss.vercel.app/"/>
-        <meta property="og:title" content="Quiz dos Games"/>
+        <meta property="og:title" content="AluraQuiz - Modelo Base"/>
         <meta property="og:description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
-        <meta property="og:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app/"+db.og}></meta>
+        <meta property="og:image" content="https://morkquiz-base.luisnascimentoss.vercel.app/images/bgog.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://morkquiz-base.luisnascimentoss.vercel.app/"/>
-        <meta property="twitter:title" content="Quiz dos Games"/>
+        <meta property="twitter:title" content="AluraQuiz - Modelo Base"/>
         <meta property="twitter:description" content="Website construido na imersão React Alura 2021 - Quiz dos Games"/>
-        <meta property="twitter:image" content={"https://morkquiz-base.luisnascimentoss.vercel.app/"+db.og}></meta>
+        <meta property="twitter:image" content="https://morkquiz-base.luisnascimentoss.vercel.app/images/bgog.png"/>
       </Head>
       <QuizContainer>
         <QuizLogo />
